@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admission Form</title>
+<style>
+  body{font-family:Arial;background:#f7f7f7;padding:20px}
+  .card{background:#fff;padding:20px;border-radius:10px;max-width:600px;margin:auto}
+  input,select,textarea{width:100%;padding:10px;margin:8px 0;border:1px solid #ccc;border-radius:5px}
+  button{padding:12px;border:none;background:#007bff;color:#fff;width:100%;border-radius:5px;font-size:16px}
+</style>
+</head>
+<body>
+
+<div class="card">
+<h2>Admission Form</h2>
+
+<form action="https://formsubmit.co/YOUR_EMAIL_ID" method="POST">
+
+<input type="hidden" name="_captcha" value="false">
+
+<label>Student Name</label>
+<input type="text" name="Student Name" required>
+
+<label>Father's Name</label>
+<input type="text" name="Father Name">
+
+<label>Mother's Name</label>
+<input type="text" name="Mother Name">
+
+<label>Email ID</label>
+<input type="email" name="Email" required>
+
+<label>Mobile Number</label>
+<input type="text" name="Mobile Number" required>
+
+<label>Date of Birth</label>
+<input type="date" name="DOB" required>
+
+<label>Gender</label>
+<select name="Gender">
+  <option>Male</option>
+  <option>Female</option>
+  <option>Other</option>
+</select>
+
+<label>Class / Course</label>
+<input type="text" name="Course">
+
+<label>Address</label>
+<textarea name="Address" rows="3"></textarea>
+
+<button type="submit">Submit</button>
+</form>
+
+</div>
+
+</body>
+</html>
